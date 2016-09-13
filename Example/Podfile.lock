@@ -1,0 +1,16 @@
+PODS:
+  - PLTestKit (0.1.0)
+
+DEPENDENCIES:
+  - PLTestKit (from `../`)
+
+EXTERNAL SOURCES:
+  PLTestKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PLTestKit: 0f7c9cc0ddbea64631fb52fc98ef0e482946eb4a
+
+PODFILE CHECKSUM: 330244ce1ad02452325269fc7b311e0f4b6a08c6
+
+COCOAPODS: 1.1.0.beta.2

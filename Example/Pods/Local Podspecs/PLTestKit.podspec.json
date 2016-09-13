@@ -1,0 +1,22 @@
+{
+  "name": "PLTestKit",
+  "version": "0.1.0",
+  "summary": "A short description of PLTestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PLTestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Moskize91": "xiangtantaozeyu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PLTestKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PLTestKit/Classes/**/*"
+}
