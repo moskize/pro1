@@ -12,8 +12,9 @@
 		2314298FFDFFB826CBC9B6352BD15DE7 /* PLTestKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B02167E5D696808EA7825758CAFD45B2 /* PLTestKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		274F44D5DFBDF6A29C7F3D17C333836D /* Pods-PLTestKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CEF79894BA053E0635C4D2C71909FE8 /* Pods-PLTestKit_Tests-dummy.m */; };
 		3AA706C9F2BC20BA2303EA429310CC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		429E41A64DFA73F447C966E6353E0B2E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5054B899F4C4C14737F1B34F59FA523E /* ReplaceMe.m */; };
 		46E6A30F45FEFED51F1F0A9F9FF38199 /* Pods-PLTestKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 383F0BFAFB9993C47BC6B1A86008FF29 /* Pods-PLTestKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2CF90FC1D88076D00CFF058 /* PLTestKit.h in Headers */ = {isa = PBXBuildFile; fileRef = D2CF90FA1D88076D00CFF058 /* PLTestKit.h */; };
+		D2CF90FD1D88076D00CFF058 /* PLTestKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CF90FB1D88076D00CFF058 /* PLTestKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,6 @@
 		0BA89F4F66661328AF13DFF4D8326779 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		189D1FF6EED72202959175C2828D4C43 /* PLTestKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PLTestKit-dummy.m"; sourceTree = "<group>"; };
 		383F0BFAFB9993C47BC6B1A86008FF29 /* Pods-PLTestKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PLTestKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5054B899F4C4C14737F1B34F59FA523E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		5456ED87802D89196D2510F1F469617C /* Pods-PLTestKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PLTestKit_Tests.modulemap"; sourceTree = "<group>"; };
 		60359EDF47E6E57DF515D51075CC2472 /* Pods-PLTestKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PLTestKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6B6A750F9912713E7C0BC761AD4C2166 /* PLTestKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PLTestKit-prefix.pch"; sourceTree = "<group>"; };
@@ -46,6 +46,8 @@
 		CBCBC0F5D6993B2A86934FB7010E7296 /* Pods-PLTestKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PLTestKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CC3E2CC68C525216C2777B98DB300A1F /* Pods-PLTestKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PLTestKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2CF90FA1D88076D00CFF058 /* PLTestKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLTestKit.h; sourceTree = "<group>"; };
+		D2CF90FB1D88076D00CFF058 /* PLTestKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLTestKit.m; sourceTree = "<group>"; };
 		E35357D48BEBA34AB6E16F3547228BA3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F0281C1F728D5B02B0741169E6146030 /* Pods-PLTestKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PLTestKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,7 +101,8 @@
 		4168A1C98E23BEF193D201CBC9FF463F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				5054B899F4C4C14737F1B34F59FA523E /* ReplaceMe.m */,
+				D2CF90FA1D88076D00CFF058 /* PLTestKit.h */,
+				D2CF90FB1D88076D00CFF058 /* PLTestKit.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2314298FFDFFB826CBC9B6352BD15DE7 /* PLTestKit-umbrella.h in Headers */,
+				D2CF90FC1D88076D00CFF058 /* PLTestKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,8 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2CF90FD1D88076D00CFF058 /* PLTestKit.m in Sources */,
 				0C061B91C14D679B26DF78F55D7032F5 /* PLTestKit-dummy.m in Sources */,
-				429E41A64DFA73F447C966E6353E0B2E /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
