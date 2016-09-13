@@ -10,4 +10,6 @@
 
 @interface PLTestKit : NSObject
 
++ (void)sayHello;
+
 @end

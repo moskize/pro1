@@ -10,4 +10,9 @@
 
 @implementation PLTestKit
 
++ (void)sayHello
+{
+    NSLog(@"hello world");
+}
+
 @end
