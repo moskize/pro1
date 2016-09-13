@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PLTestKit_Tests' do
+  pod 'PLTestKit', :path => '../'
+  
+  
+end
