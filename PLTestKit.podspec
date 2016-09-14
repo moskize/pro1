@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PLTestKit'
-  s.version          = '2.0.0'
+  s.version          = '2016.09.14.10.41.23'
   s.summary          = 'a good test for me.'
 
 # This description is used to generate tags and improve search results.
