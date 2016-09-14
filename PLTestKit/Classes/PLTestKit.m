@@ -12,7 +12,7 @@
 
 + (void)sayHello
 {
-    NSLog(@"hello world");
+    NSLog(@"hello world 123");
 }
 
 @end
